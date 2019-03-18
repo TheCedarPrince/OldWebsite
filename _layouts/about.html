@@ -1,0 +1,17 @@
+---
+layout: blank
+---
+
+<main id="main" class="main-content" aria-label="Content">
+  <article>
+    <div class="page-wrapper">
+      <div class="page-content">
+        {{ content }}
+
+        {% if page.share %}
+          {% include social-share.html %}
+        {% endif %}
+      </div>
+    </div>
+  </article>
+</main>
