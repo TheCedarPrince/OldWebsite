@@ -14,17 +14,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 theme: jekyll-theme-so-simple
-# remote_theme: mmistakes/so-simple-theme
 locale: en-US
-title: "My Awesome Site"
-description: "It really is the best."
+title: "Notes from Z's Corner"
+description: "Scribblings."
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+logo: /assets/logo.png # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
-words_per_minute: # 200
-mathjax: # MathJax equations, e.g. true
+read_time: true # reading time estimates, e.g. true
+words_per_minute: 200 # 200
+mathjax: true # MathJax equations, e.g. true
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
@@ -34,7 +33,7 @@ google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
-  username: # site's Twitter username, e.g. "mmistakes"
+  username: "Jacob_Zelko" # site's Twitter username, e.g. "mmistakes"
 
 # Liquid
 liquid:
@@ -74,6 +73,14 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
+  - jemoji
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Front Matter Defaults
 defaults:
@@ -83,21 +90,39 @@ defaults:
       type: posts
     values:
       layout: post
+      comments: true
       share: true
+  - scope:
+      path: "_projects"
+      type: projects
+    values:
+      layout: post
+      comments: true
+      share: true
+  - scope:
+      path: "_about"
+      type: about
+    values:
+      layout: about
+      comments: false
+      share: false
 
 # Site Author
 author:
-  name:
-  picture:
-  email:
-  twitter:
+  name: Jacob Zelko
+  picture: /assets/150x_profile.png
+  email: jacobszelko@gmail.com
+  twitter: "Jacob_Zelko"
   links:
-    - title:
-      url:
-      icon:
+    - title: Twitter
+      url: https://twitter.com/jacob_zelko
+      icon: fab fa-twitter-square
 
 # Footer Links
 footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
+
+# Copyright info
+copyright: "*From breath to breath* "
