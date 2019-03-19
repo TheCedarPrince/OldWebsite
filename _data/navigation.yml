@@ -1,11 +1,11 @@
 # Sample site navigation bar links
 
-- title: Articles
+- title: What I Do
   url: /
 # - title: Articles
 #   url: /posts/
-- title: Projects
-  url: /projects/
+- title: What I Think
+  url: /posts/
 - title: Who? Me?
   url: /about/
 # - title: Categories
