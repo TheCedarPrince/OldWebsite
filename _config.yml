@@ -123,6 +123,18 @@ footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
+  - title: Twitter
+    url: https://twitter.com/jacob_zelko
+    icon: fab fa-twitter-square
+  - title: Instagram
+    url: https://instagram.com/jacob_zelko
+    icon: fab fa-instagram
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/jacob-zelko/
+    icon: fab fa-linkedin
+  - title: GitHub
+    url: https://github.com/TheCedarPrince
+    icon: fab fa-github-square
 
 # Copyright info
 copyright: "*From breath to breath* "
