@@ -15,7 +15,7 @@ permalink: /about/
 ### My name is Jacob S. Zelko and it is a pleasure to meet you!
 {: style="text-align: center;"}
 
-I am currently a senior at [Georgia Institute of Technology](https://www.bme.gatech.edu/) studying biomedical engineering; I am also a Data Information Specialist in the [Department of Biomedical Informatics at Emory University](http://www.bmi.emory.edu/) and am a student of world leading biomedical informaticist, [Gari Clifford  DPhil](https://scholar.google.com/citations?user=VwYoZ6gAAAAJ&hl=en&oi=ao), doing research in the areas of computational psychiatry and medical surveillance.
+I am a transplant from upstate New York living in Atlanta, Georgia - it's much warmer here! I am currently a senior at [Georgia Institute of Technology](https://www.bme.gatech.edu/) studying biomedical engineering; I am also a Data Information Specialist in the [Department of Biomedical Informatics at Emory University](http://www.bmi.emory.edu/) and am a student of world leading biomedical informaticist, [Gari Clifford  DPhil](https://scholar.google.com/citations?user=VwYoZ6gAAAAJ&hl=en&oi=ao), doing research in the areas of computational psychiatry and medical surveillance.
 {: style="text-align: center;"}
 
 ### What am I passionate about?
