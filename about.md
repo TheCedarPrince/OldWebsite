@@ -1,8 +1,10 @@
 ---
 layout: about
-permalink: /about/
+permalink: /
 comments: false
 ---
+
+<!-- This is the main splash project page -->
 
 &nbsp;
 
