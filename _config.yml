@@ -105,6 +105,13 @@ defaults:
       layout: about
       comments: false
       share: false
+  - scope:
+      path: "_error"
+      type: error
+    values:
+      layout: error
+      comments: false
+      share: false
 
 # Site Author
 author:
