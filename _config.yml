@@ -41,7 +41,6 @@ liquid:
 # Build settings
 permalink: /:categories/:title/
 markdown: kramdown
-  input: GFM
 feed:
   path: atom.xml
 
