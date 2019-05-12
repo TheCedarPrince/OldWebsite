@@ -222,5 +222,3 @@ Keep on and rock on. ![zelko](/assets/favicon.ico)
 ![left-aligned-image](/assets/150x_profile.png){: .align-left} <br> Jacob S. Zelko is a senior at Georgia Institute of Technology studying Biomedical Engineering and doing research in areas of computational psychiatry and medical surveillance. When not working, Jacob can be found writing music, reading, or drinking hot cocoa at random coffee houses. :coffee:
 
 -----
-
-{% include disqus-comments.html %}
