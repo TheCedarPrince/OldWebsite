@@ -38,7 +38,7 @@ The goals of this project are set out by the Field School below:
 
 ### April 8th, 2019
 
- After review, the [Wallace H. Coulter Department of Biomedical Engineering](https://www.bme.gatech.edu/) decided to increase their initial contribution to $5000 - this fully covers all of my expenses to go to Antigua with the Field School. I am extremely thankful to the Department and am looking forward to sharing my progress here.<br><br>
+ After review, the [Wallace H. Coulter Department of Biomedical Engineering](https://www.bme.gatech.edu/) decided to increase their initial contribution to $5000 by *also awarding me the BME Jain Fellowship Stipend* - this fully covers all of my expenses to go to Antigua with the Field School. I am extremely thankful to the Department and am looking forward to sharing my progress here.<br><br>
 
 
 
