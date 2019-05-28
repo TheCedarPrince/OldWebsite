@@ -59,7 +59,7 @@ My personal criteria for a good knowledge base is that it must:
 
 **Reading & Note Taking** - I always take notes on things I read - can't live without it!
 
-&nbsp; 
+&nbsp;
 # Cloud Storage
 {: style="text-align: center;"}
 
@@ -68,11 +68,11 @@ My personal criteria for a good knowledge base is that it must:
   <figcaption>To the sky - er, clouds I suppose.</figcaption>
 </figure>
 
-[Nextcloud](https://nextcloud.com), [Box](https://www.box.com), [Google Drive](https://www.google.com/intl/en/drive/), [Dropbox](https://www.dropbox.com/) - the list goes on and on about which cloud service you could use to meet your data management needs. 
+[Nextcloud](https://nextcloud.com), [Box](https://www.box.com), [Google Drive](https://www.google.com/intl/en/drive/), [Dropbox](https://www.dropbox.com/) - the list goes on and on about which cloud service you could use to meet your data management needs.
 
-With that said, narrowing down a specific cloud service can be tricky. However, for me, I ended up choosing Google Drive: it has a huge amount of storage that one can use for free - 15GB! - and integrates into my established work flow pretty well. 
+With that said, narrowing down a specific cloud service can be tricky. However, for me, I ended up choosing Google Drive: it has a huge amount of storage that one can use for free - 15GB! - and integrates into my established work flow pretty well.
 
-**My biggest piece of advice is to look at what both supports you now and that you can see supporting you in the future.** I personally do not see filling up the 15GB soon and I know that I will not be storing exremely sensitive information on the service. 
+**My biggest piece of advice is to look at what both supports you now and that you can see supporting you in the future.** I personally do not see filling up the 15GB soon and I know that I will not be storing exremely sensitive information on the service.
 
 In the future, I really want to move on to using [Nextcloud](https://nextcloud.com) as I like their model and you have more control over your data. For now, I do not want to worry terribly about what cloud architecture I have in place as **I know I can pretty easily swap out one cloud storage service for another should the need arise.**
 
@@ -111,19 +111,19 @@ Once you have followed one of the tutorials, I would suggest you install [Zotfil
 
 _The following tutorial was heavily adapted from this [great guide](/assets/Taming Knowledge/zotfile_guide.pdf) written by Stephen Chignell. If anything is confusing, please consult this guide!_
 
-1. Install [ZotFile](zotfile.com) from their website. This will download a .xpi file on your computer. 
+1. Install [ZotFile](zotfile.com) from their website. This will download a .xpi file on your computer.
 
 2. Install ZotFile into Zotero by going to Tools and then select Add-ons. In the menu that shows up, click the gear icon and click "Install Add-on from File"
 
 3. Select the .xpi you downloaded and install it.
 
-4. Restart Zotero. 
+4. Restart Zotero.
 
-Once you have finished installing ZotFile, now comes the more challenging part - configuring your cloud storage option for Zotero! 
+Once you have finished installing ZotFile, now comes the more challenging part - configuring your cloud storage option for Zotero!
 
 1. Wherever you have your cloud storage set up on your computer, create a folder there named Zotero (or whatever you deem fit for your knowledge base).
 
-2. Under the Tools menu, you should now see "ZotFile Preferences" as an option. Click that! 
+2. Under the Tools menu, you should now see "ZotFile Preferences" as an option. Click that!
 
 &nbsp;
 
@@ -147,11 +147,11 @@ Once you have finished installing ZotFile, now comes the more challenging part -
 ### Testing Zotero
 {: style="text-align: center;"}
 
-Finally, let's test Zotero with ZotFile! 
+Finally, let's test Zotero with ZotFile!
 
-1. Let's take one of my favorite papers [here](/assets/Taming Knowledge/npjschz201530.pdf) and download it. 
+1. Let's take one of my favorite papers [here](/assets/Taming Knowledge/npjschz201530.pdf) and download it.
 
-2. Once it is downloaded, drag the file into Zotero and watch the magic happen! What you should see is that ZotFile automatically extracted the metadata from the file and put the info into a Zotero reference. 
+2. Once it is downloaded, drag the file into Zotero and watch the magic happen! What you should see is that ZotFile automatically extracted the metadata from the file and put the info into a Zotero reference.
 
 &nbsp;
 
@@ -162,9 +162,9 @@ Finally, let's test Zotero with ZotFile!
 
 &nbsp;
 {:start="3"}
-3. **To get Zotero to save files to your specific cloud path, right click your recently uploaded file in Zotero and under "Manage Attachments", click "Rename Attachments".** Once done, you can now check your cloud service and you should see your PDF there! 
+3. **To get Zotero to save files to your specific cloud path, right click your recently uploaded file in Zotero and under "Manage Attachments", click "Rename Attachments".** Once done, you can now check your cloud service and you should see your PDF there!
 
-4. ZotFile also allows you to extract comments and annotations from a PDF that you upload or work on later in your Zotero Cloud set-up. To do this, right click a file that you have annotated and uploaded to Zotero. Under "Manage Attachments", click "Extract Annotations". Wait for a moment and you should see your annotations pop up under your entry in Zotero as a note file! 
+4. ZotFile also allows you to extract comments and annotations from a PDF that you upload or work on later in your Zotero Cloud set-up. To do this, right click a file that you have annotated and uploaded to Zotero. Under "Manage Attachments", click "Extract Annotations". Wait for a moment and you should see your annotations pop up under your entry in Zotero as a note file!
 
 &nbsp;
 
@@ -187,7 +187,7 @@ Finally, let's test Zotero with ZotFile!
 ### Don't Read a Paper - Devour It!
 {: style="text-align: center;"}
 
-**Pick a PDF reader on your desktop and mobile that allows you to do annotations, notes, screenshots, and comments. At least.** For me, I use [FoxIt Reader](https://www.foxitsoftware.com/pdf-reader/) because 1) Has a wide assortment of tools and is very easy to work with once you get the hang of it 2) has a mobile app for the iPhone 3)  it allows me to directly access my knowledge base on Google Drive either on the go or on desktop. This was the software that worked best for me - if something goes wrong, I know I can replace it but for now, it kicks butt! 
+**Pick a PDF reader on your desktop and mobile that allows you to do annotations, notes, screenshots, and comments. At least.** For me, I use [FoxIt Reader](https://www.foxitsoftware.com/pdf-reader/) because 1) Has a wide assortment of tools and is very easy to work with once you get the hang of it 2) has a mobile app for the iPhone 3)  it allows me to directly access my knowledge base on Google Drive either on the go or on desktop. This was the software that worked best for me - if something goes wrong, I know I can replace it but for now, it kicks butt!
 
 &nbsp;
 ### Enter Joplin - A Notetaker's Companion
@@ -208,7 +208,7 @@ When I first discovered Joplin I was stunned - it was PERFECT! It checked off al
 6. It's Open Source :heavy_check_mark:
 7. It's free :heavy_check_mark:
 
-It sets itself up to be a competitor against the likes of EverNote and OneNote. Personally, I think this beats them. Read about Joplin [here](https://joplinapp.org) and give it a whirl! 
+It sets itself up to be a competitor against the likes of EverNote and OneNote. Personally, I think this beats them. Read about Joplin [here](https://joplinapp.org) and give it a whirl!
 
 &nbsp;
 # Concluding Thoughts
@@ -220,5 +220,9 @@ Keep on and rock on. ![zelko](/assets/favicon.ico)
 
 -----
 ![left-aligned-image](/assets/150x_profile.png){: .align-left} <br> Jacob S. Zelko is a senior at Georgia Institute of Technology studying Biomedical Engineering and doing research in areas of computational psychiatry and medical surveillance. When not working, Jacob can be found writing music, reading, or drinking hot cocoa at random coffee houses. :coffee:
+-----
+
+
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d6ae1fca1723078aa21f7153f/903b22af1a0f72bb3fe6903ca.js");</script>
 
 -----
