@@ -45,7 +45,13 @@ My personal criteria for a good knowledge base is that it must:
 
 5. **Does it get the job done, easily?** - one can come up with a great solution, but if it takes you 30 minutes to process a paper into your workflow, that is not going to cut it
 
+&nbsp;
 
+---
+
+{% include subscription-form.html %}
+
+---
 
 &nbsp;
 # My Workflow
@@ -75,6 +81,8 @@ With that said, narrowing down a specific cloud service can be tricky. However, 
 **My biggest piece of advice is to look at what both supports you now and that you can see supporting you in the future.** I personally do not see filling up the 15GB soon and I know that I will not be storing exremely sensitive information on the service.
 
 In the future, I really want to move on to using [Nextcloud](https://nextcloud.com) as I like their model and you have more control over your data. For now, I do not want to worry terribly about what cloud architecture I have in place as **I know I can pretty easily swap out one cloud storage service for another should the need arise.**
+
+
 
 &nbsp;
 # Reference Management
@@ -220,9 +228,5 @@ Keep on and rock on. ![zelko](/assets/favicon.ico)
 
 -----
 ![left-aligned-image](/assets/150x_profile.png){: .align-left} <br> Jacob S. Zelko is a senior at Georgia Institute of Technology studying Biomedical Engineering and doing research in areas of computational psychiatry and medical surveillance. When not working, Jacob can be found writing music, reading, or drinking hot cocoa at random coffee houses. :coffee:
------
-
-
-<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d6ae1fca1723078aa21f7153f/903b22af1a0f72bb3fe6903ca.js");</script>
 
 -----
