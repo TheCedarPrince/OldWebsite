@@ -45,5 +45,5 @@ Look no further, here is my [CV](/assets/jacob_zelko_2019_cv.pdf).
 ### Want to grab :coffee: or say :wave: ?
 {: style="text-align: center;"}
 
-Feel free to reach out to me via [email](mailto:jacobszelko@gmail.com) or find me on [LinkedIn](https://www.linkedin.com/in/jacob-zelko/).
+Feel free to contact me [here](/contact/)!
 {: style="text-align: center;"}
