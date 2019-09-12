@@ -1,13 +1,12 @@
 ---
-title: "Simple Set-Up; Powerful Tool"
+title: "Zotero - Simple Set-Up, Great Tool"
 image:
-  path: /assets/Taming Knowledge/library.jpg
-  caption: "Photo from [@alfonsmc10](https://unsplash.com/@alfonsmc10)"
+  path: /assets/collaboration.jpg
 comments: true
 share: true
 ---
 
-*Zotero - the time-saving, reference managing, and all-round awesome research tool*
+*Zotero - the time-saving, reference managing, and all-round awesome research collaboration tool*
 {: .notice}
 {: style="text-align: center;"}
 

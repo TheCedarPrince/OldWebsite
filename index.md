@@ -27,7 +27,7 @@ I am a transplant from upstate New York living in Atlanta, Georgia. I am current
 I am immensely interested in and concerned about public health and the social determinants of health, development for LMICs and resource constrained environments, mental health - specifically personality disorders -, and patient medical environments.
 {: style="text-align: center;"}
 
-For information about my work, please check out [What I Do](/).
+For information about my work, please check out [What I Do](/projects/).
 {: style="text-align: center;"}
 
 ### Hobbies?
