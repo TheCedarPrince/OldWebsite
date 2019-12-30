@@ -206,6 +206,8 @@ While I have been with family, I took some time to learn about the
 
 This gif is of a dense matrix (y = 1's, p = 0's); I generated it via #python and #JuliaLang.
 
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Happy Holidays Folks! 🎄<br><br>While I have been with family, I took some time to learn about the <a href="https://twitter.com/JuliaLanguage?ref_src=twsrc%5Etfw">@JuliaLanguage</a> from <a href="https://twitter.com/MIT?ref_src=twsrc%5Etfw">@MIT</a>.<br><br>This gif is of a dense matrix (y = 1&#39;s, p = 0&#39;s); I generated it via <a href="https://twitter.com/hashtag/python?src=hash&amp;ref_src=twsrc%5Etfw">#python</a> and <a href="https://twitter.com/hashtag/JuliaLang?src=hash&amp;ref_src=twsrc%5Etfw">#JuliaLang</a>.<br><br>At first, I thought julia was a very odd language. Then, I got it. <a href="https://t.co/7L36z9wBfM">pic.twitter.com/7L36z9wBfM</a></p>&mdash; JacobZelko (@Jacob_Zelko) <a href="https://twitter.com/Jacob_Zelko/status/1210497355574894592?ref_src=twsrc%5Etfw">December 27, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 At first, I thought julia was a very odd language. Then, I got it.
 4:47 AM · Dec 27, 2019·Twitter Web App
 View Tweet activity
