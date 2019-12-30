@@ -193,3 +193,76 @@ Ah gotcha - it kept blowing up whenever I tried to use Julia 1.3.0 so I deemed i
 
 TheCedarPrince  3 hours ago
 Thanks @mileslucas
+
+## **Initial Twitter Thoughts**
+
+Happy Holidays Folks! 🎄
+
+While I have been with family, I took some time to learn about the 
+@JuliaLanguage
+ from 
+@MIT
+.
+
+This gif is of a dense matrix (y = 1's, p = 0's); I generated it via #python and #JuliaLang.
+
+At first, I thought julia was a very odd language. Then, I got it.
+4:47 AM · Dec 27, 2019·Twitter Web App
+View Tweet activity
+ Retweets
+ Likes
+JacobZelko
+@Jacob_Zelko
+·
+Dec 27
+Replying to 
+@Jacob_Zelko
+Julia is not trying to overthrow Python (just yet 😉), instead it directly leverages Python.
+
+I made use of matplotlib and numpy from Python using 
+@anacondainc
+'s environment, Julia's PyPlot and PyCall packages and made a frankenstein-esque script to make my gif.
+JacobZelko
+@Jacob_Zelko
+·
+Dec 27
+Getting used to some of Julia's idiosyncrasies and how it handles computer science foundations was an adjustment.
+
+I am iffy on code mixing and versioning (pythonistas, eat your heart out).
+
+Then, when I got my first #visualization to work, the magic of julia hit me.
+JacobZelko
+@Jacob_Zelko
+·
+Dec 27
+I could truly leverage the power of python in the context of julia without too much of a performance hit. When I realized that, the possibilities here are truly ENDLESS.
+
+Some important points of feedback so far for the 
+@JuliaLanguage
+ team (as a layman):
+JacobZelko
+@Jacob_Zelko
+·
+Dec 27
+1. There needs to be better julia+python management. Python's package management is challenging; julia's, is not. These two systems must remain distinct - Conda.jl is a great start (problems: why the base conda env, etc.). This makes debugging python+julia projects easier.
+JacobZelko
+@Jacob_Zelko
+·
+Dec 27
+2. Better integration between julia+other languages in terms of linting (i.e. tooltips in editors like #code)
+
+3. Style guide - projects could rapidly get confusing if you start mixing in other langs. I see nothing in the style guide about how to handle language mixing.
+JacobZelko
+@Jacob_Zelko
+·
+Dec 27
+4. Loading in modules to julia from python conda envs takes a LONG time and is a big initial performance hit on my code - is there a reason for this?
+
+Take this all with a grain of salt of someone doing a deep dive in julia for AI studies - as a layman.
+JacobZelko
+@Jacob_Zelko
+·
+Dec 27
+I think the language has a great future and could really become one of the most extensible languages in the world - I see the vision for it and it  is great.
+
+As a novice scientist and julia programmer, I hope to see that come to be. 🙂
