@@ -112,13 +112,6 @@ ZotFile also allows you to extract comments and annotations from a PDF that you 
   <figcaption>Here ZotFile automagically copies the annotations from a PDF and stores them into Zotero for easy referencing.</figcaption>
 </figure>
 
-&nbsp;
-
----
-
-{% include subscription-form.html %}
-
----
 
 &nbsp;
 ### Zotero for Teams
@@ -159,9 +152,6 @@ Thanks for following along on the tutorial! Hopefully that got you started with 
 
 If you want to take a deeper dive into Zotero and personal research management, I recommend you check out my article about it!
 
-**If anything is confusing or coould be improved upon or if you just want to say hey, please drop me a comment below or [contact me](/contact)!**
+**If anything is confusing or could be improved upon or if you just want to say hey, please drop me a comment below or [contact me](/contact)!**
 
------
-![left-aligned-image](/assets/150x_profile.png){: .align-left} <br> Jacob S. Zelko is a senior at Georgia Institute of Technology studying Biomedical Engineering and doing research in areas of computational psychiatry, medical surveillance, and medical anthropology. When not working, Jacob can be found writing music, reading, or drinking hot cocoa at random coffee houses. :coffee:
 
------
