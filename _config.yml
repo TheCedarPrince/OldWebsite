@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 locale: en-US
 title: "the cedar ledge"
-description: "...from breath to breath..."
+description: "J.S. Zelko's Personal Website"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: /assets/logo.png # path of site logo, e.g. "/images/logo.png"
@@ -120,9 +120,6 @@ author:
   email: jacobszelko@gmail.com
   twitter: "Jacob_Zelko"
   links:
-    - title: LinkedIn
-      url: https://www.linkedin.com/in/jacob-zelko/
-      icon: fab fa-linkedin
     - title: Twitter
       url: https://twitter.com/jacob_zelko
       icon: fab fa-twitter-square
@@ -138,12 +135,6 @@ footer_links:
   - title: Twitter
     url: https://twitter.com/jacob_zelko
     icon: fab fa-twitter-square
-  - title: Instagram
-    url: https://instagram.com/jacob_zelko
-    icon: fab fa-instagram
-  - title: LinkedIn
-    url: https://www.linkedin.com/in/jacob-zelko/
-    icon: fab fa-linkedin
   - title: GitHub
     url: https://github.com/TheCedarPrince
     icon: fab fa-github-square

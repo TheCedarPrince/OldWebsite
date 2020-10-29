@@ -1,15 +1,17 @@
 # Sample site navigation bar links
 
-- title: What I Think
+- title: Blog
   url: /posts/
-- title: What I Do
+- title: Projects 
   url: /projects/
 # - title: Articles
 #   url: /posts/
-- title: Who? Me?
+- title: About 
   url: /
-- title: Contact!
+- title: Contact
   url: /contact/
+- title: CV 
+  url: /cv/
 # - title: Categories
 #   url: /categories/
 # - title: Tags
