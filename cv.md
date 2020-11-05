@@ -5,7 +5,9 @@ permalink: /cv/
 comments: false
 ---
 
-Here is a current copy of my Curriculum Vitae.
-Feel free to [contact](/contact/) me if you have any questions about it.
+The current copy of my Curriculum Vitae can be accessed via this [Google Drive link](https://drive.google.com/file/d/1ypAm8i6eYd7cZfFolItf4Q6B08459VwP/view?usp=sharing).
+{: style="text-align: center;" :}
 
-<iframe src="https://drive.google.com/file/d/1ypAm8i6eYd7cZfFolItf4Q6B08459VwP/preview" width="718" height="700" frameborder="0"></iframe>
+Feel free to [contact me](/contact/) if you have any questions about it or are unable to access the link.
+{: style="text-align: center;" :}
+
