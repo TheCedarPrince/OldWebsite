@@ -1,5 +1,5 @@
 ---
-title: "Naive Implementation of Marching Squares"
+title: "Implementing Marching Squares"
 image:
   path: /assets/squares_banner.png
 comments: true
@@ -39,7 +39,11 @@ Following this simple explanation, lets get to implementing the algorithm!
 
 # Implementing Marching Squares!
 
-For reference going forward, we will be using this $$10 \times 10$$ grid where I have already applied a threshold and converted all values to $$0$$'s and $$1$$'s:
+## All I See Are :one:'s and :zero:'s!
+
+To start, we need some data!
+I went ahead and created this $$10 \times 10$$ grid that has a threshold applied to it to make it hold only $$1$$'s and $$0$$'s.
+We will be using the following array of values in this post:
 
 ```julia
 10 × 10 Array{Int64,2}:
@@ -55,16 +59,69 @@ For reference going forward, we will be using this $$10 \times 10$$ grid where I
  0  1  1  0  1  1  0  0  0  1
 ```
 
-To process this information and implement the algorithm 
+## Visualizing a Grid Using `Luxor.jl` :beetle:
+
+To process this information and implement the algorithm, we need a way to actually visualize these values.
+Thankfully, fellow Julia developer, [Cormullion](https://cormullion.github.io/), created a wonderful visualization library called [Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl) that allows us to do just that!
+One can add `Luxor.jl` to your Julia REPL by typing `]add Luxor`.
+After that, let's start with making our script!
+
+First, let's use Luxor and create a function that defines our background:
+
+```julia
+using Luxor
+
+function make_drawing(width, height, img_path, bkg_color, origin_p)
+    d = Drawing(width, height, img_path)
+    background(bkg_color)
+    origin(Point(0, 0))
+    return d
+end
+```
+
+`make_drawing` creates a `Drawing` object that we will then draw our future lines and shapes!
+It requires you to specify the dimensions of your drawing, where to save the image, the background color, and an origin.
+Upon execution, it gives you back the `Drawing` object ready for additional shapes to be drawn on it.
+
+> **NOTE: What is an "origin" in `Luxor`?** 
+>
+> By default, `Luxor` assumes you want to draw everything based off the center of the `Drawing`'s given dimensions.
+> To change the origin, we supply a `Point` from `Luxor` to `Luxor`'s function, `origin`.
+
+Perfect!
+Now that we have our drawing created, let's get to work actually showing our values.
+
+I think the best way is to show zero's as white balls and one's as black balls.
+To do this, let's create another function for our script:
+
+```julia 
+function draw_balls(drawing, grid)
+    nrows, ncols = size(grid)
+    step_x = drawing.width / (ncols - 1)
+    step_y = drawing.height / (nrows - 1)
+    circ_scale = min(nrows, ncols) / max(nrows, ncols)
+    points = Array{NamedTuple}(undef, nrows, ncols)
+    for i = 1:nrows
+        for j = 1:ncols
+	    grid[i, j] == 0 ? sethue("white") : sethue("black")
+            pos = Point(step_x * (j - 1), step_y * (i - 1))
+            circle(pos, 7.5 * circ_scale, :fill)
+	    points[i, j] = (x = pos.x, y = pos.y, val = grid[i, j])
+        end
+    end
+    return points
+end
+```
+
+There is a lot happening in this new function! Let's examine the `draw_balls` function step by step to understand it:
+
+1. The function takes in a `Drawing` object and the binary valued grid.
+2. The number of rows and columns are determined from the grid.
+3. `step_x` and `step_y` are calculated to find how much space should be between each ball along the `x` and `y` axes. (We subtract one away from the denominator of the step calculations to draw along the edges of the `Drawing`).
+4. We create a scaling value, `circ_scale`, that scales our balls to an appropriate radius for the grid.
+5. 
 
 
-
-Essentially, how it works is you make a matrix of points. 
-I chose to have 10 rows and columns of points. 
-I accomplished this with Luxor.jl - a wonderful #Graphics library created by Cormullion (link: https://github.com/JuliaGraphics/Luxor.jl) in Julia that builds on top of Cairo.
-
-
-asdf
 
 
 ![](/assets/grid_squares.png)
