@@ -24,6 +24,10 @@ However, what was curious to me was how to make the boundaries one can see in th
 I chatted with my friend and fellow programmer [Ole Kröger](https://opensourc.es/about/) about this and he explained this was accomplished via an algorithm called [Marching Squares](https://www.wikiwand.com/en/Marching_squares).
 So, naturally, I had to figure out how to implement this for myself!
 
+If you find this blog post useful, please consider citing it:
+
+> Jacob Zelko. _Implementing Marching Squares_. December 1st, 2020. http://jacobzelko.com
+
 # What Is the Marching Squares Algorithm?
 
 A simplified explanation of the marching squares algorithm is that it can be thought of as a way of visually separating data based on a user defined threshold.
