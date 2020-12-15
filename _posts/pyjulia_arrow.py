@@ -1,4 +1,4 @@
-from julia import Arrow
+from julia import Arrow, DataFrames, Pandas 
 import pandas as pd
 import tracemalloc
 from timeit import repeat
@@ -22,12 +22,13 @@ def pyjulia_alloc(fpath):
 
 eeg_arrow_data = "/home/src/Projects/neuriviz/data/exp_pro/sub-002/ses-01/eeg/sub-002_ses-01_task-gonogo_run-01_eeg.arrow"
 
-runs = 10
+runs = 10000
 evals = 1
-pyjulia_alloc(eeg_arrow_data)
-data = Arrow.Table(eeg_arrow_data)
+# pyjulia_alloc(eeg_arrow_data)
 
-stats = repeat(stmt="pd.DataFrame(data)", repeat=runs, number = evals, globals=globals())
+print("Starting test...")
+stats = repeat(stmt="DataFrames.DataFrame((Arrow.Table(\"/home/src/Projects/neuriviz/data/exp_pro/sub-002/ses-01/eeg/sub-002_ses-01_task-gonogo_run-01_eeg.arrow\")))", repeat=runs, number = evals, globals=globals())
+# stats = repeat(stmt="Arrow.Table(eeg_arrow_data)", repeat=runs, number = evals, globals=globals())
 print("--------------")
 print("Mean time: %.5f s" % (sum(stats) / runs))
 print("Max time: %.5f s" % max(stats))
