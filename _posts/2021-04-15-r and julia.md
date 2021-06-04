@@ -233,17 +233,44 @@ You are now accessing the `R` REPL from the `Julia` REPL!
 Here is how that looks with a few different `R` commands having run:
 
 ![](/assets/julia_rcall.png)
-<!--TODO: Add picture of R REPL in Julia REPL with library('base') and base::version-->
+
+### Case Study: OHDSI `R` Tools
+
+The [Observational Health Data Sciences and Informatics](https://ohdsi.org/) program is an open science initiative focused on arming health scientists with the tools to perform large scale analytics on healthcare data.
+They have a [wonderful toolchain](https://github.com/OHDSI) but, at the time of this writing, the tools are almost all exclusively written in `R`.
+To ordinary programmers, this might seem like roadblock, but for us, `Julia` can build bridges for us to call these tools!
+
+First, we need to install a package called [OMOPCommonDataModel.jl](https://github.com/JuliaHealth/OMOPCommonDataModel.jl).
+We won't get too much into what the [OMOP Common Data Model](https://ohdsi.github.io/CommonDataModel/) actually is but in a nutshell, it is a way of standardizing unstructured healthcare data.
+With the package, `OMOPCommonDataModel.jl`, we actually have an implementation in the language of this specification to structure healthcare type data!
+We can add it to our `Julia` installation by using the command:
+
+```julia
+using Pkg
+Pkg.add("OMOPCommonDataModel.jl")
+```
+
+And then we can use this package alongside `RCall`:
 
 ```julia
 using RCall
 using OMOPCommonDataModel
 ```
 
+Perfect! Moving on from there, you can also go ahead and install the following packages in `R` with the following commands in an `R` REPL:
+
 ```R
 install.packages(c("SqlRender", "DatabaseConnector", "remotes"))
 remotes::install_github("ohdsi/Eunomia", ref = "v1.0.0")
 ```
+
+To briefly summarize what these packages are, they are packages from the OHDSI community which allows us to get something very exciting: artificial healthcare data structured in the OMOP Common Data Model!
+Since healthcare data in the United States falls under the protection of policies such as [HIPAA](https://www.hhs.gov/hipaa/index.html), it is not often easy to get access to healthcare data.
+Much less healthcare data you can publicly share and analyze (for example: in a blog post!).
+So the fact that OHDSI provides this data is fantastic for us!
+
+Now that you have these packages installed in `Julia` and `R` we can now get to the exciting bit: calling `R` code from `Julia`!
+We will be using the following `R` snippet:
 
 ```R
 library('DatabaseConnector')
@@ -257,6 +284,11 @@ sql <-	"
 	"
 result <- renderTranslateQuerySql(connection, sql, cdm ="main")
 ```
+
+What this `R` snippet does, is it connects to OHDSI's artificial healthcare database called [`Eunomia`](https://github.com/OHDSI/Eunomia) (by the way, the OHDSI loves Greek names - [Eunomia is the goddess of law and legislation](https://www.wikiwand.com/en/Eunomia)!) that was installed on your computer when the `R` `Eunomia` package was installed.
+It finds a person object from this database and returns it back to via an embedded SQL command - so I guess we are actually to use three languages in this example. :boom:
+However, we are not going to run this code in `R`!
+No! We will use `Julia` to do this; copy the next snippet into a file called `omop.jl`:
 
 ```julia
 using RCall
@@ -276,6 +308,12 @@ result <- renderTranslateQuerySql(connection, sql, cdm ="main")
 """ |> rcopy
 
 omop_person = [Person(vec(convert(Array, row))...) for row in eachrow(people)]
+```
+
+and then run it from the `Julia` REPL by doing the following:
+
+```julia
+include("omop.jl")
 ```
 
 From R to Julia object:
