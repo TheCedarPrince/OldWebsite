@@ -4,8 +4,6 @@ permalink: /
 comments: false
 ---
 
-<!--This is the main landing page of the website!-->
-
 # Hello! | ¡Hola! | !مرحبا
 {: style="text-align: center;"}
 
@@ -15,14 +13,14 @@ comments: false
 {: style="text-align: center;"}
 
 I am a graduate of [Georgia Institute of Technology](https://www.bme.gatech.edu/) with a BS in biomedical engineering.
-While pursuing my BS, I worked as a data information specialist and biomedical informaticist in the [Department of Biomedical Informatics at Emory University](http://www.bmi.emory.edu/) doing research in the areas of computational psychiatry and worked with [The Center for Discovery](https://thecenterfordiscovery.org/) as an engineering consultant to aid in caring for their juvenile neurocognitively diverse population.
-Furthermore, I am an amateur medical anthropologist having worked in rural Guatemala with the National Association for the Practice of Anthropology to examine health systems strengthening and resource constrained environments. 
+I currently work at [Georgia Tech Research Institute](https://gtri.gatech.edu/) in the Health Emerging and Advanced Technologies division (HEAT-D) as a Health Data Analytics and Informatics Researcher as well as being a Contractor for the [Centers for Disease Control](https://www.cdc.gov/).
+I am a transplant to Atlanta, Georgia from Upstate New York! 
 
 ### What Am I Passionate About?
 {: style="text-align: center;"}
 
 Broadly speaking, I am interested in the social determinants of health, resource constrained environments, neurocognitive disabilities, mental health, equitable healthcare, reproducible science, open source science, knowledge management, and education.
-Additionally, as a [practicing Christian](/blog/faith/), I am very interested in the intersection of faith communities and science.
+Additionally, as a [practicing Christian](/faith/), I am very interested in the intersection of faith communities and science.
 More technically, I develop open source scientific software using Julia and Python to analyze medical datasets to produce performant analysis pipelines and visualization schemes.
 I use my [blog](/posts/) to share on my thoughts on anything ranging from programming and knowledge management to academia and best practices.
 
@@ -36,6 +34,8 @@ A short film I scored was even nominated for the [Cannes Short Film Corner](/pro
 
 I also host an [educational Twitch channel](https://www.twitch.tv/thecedarprince) where I work on open source coding and research projects.
 I use this outlet to teach best practices in software engineering, how to program, and development workflows.
+
+Also, for fun, I am trying to pick up Stenography to write quicker using a hobbyist stenography machine. :keyboard:
 
 ### Want To Learn More About Me? :page_facing_up:
 {: style="text-align: center;"}
