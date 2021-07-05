@@ -22,6 +22,7 @@ Furthermore, I am an amateur medical anthropologist having worked in rural Guate
 {: style="text-align: center;"}
 
 Broadly speaking, I am interested in the social determinants of health, resource constrained environments, neurocognitive disabilities, mental health, equitable healthcare, reproducible science, open source science, knowledge management, and education.
+Additionally, as a [practicing Christian](/blog/faith/), I am very interested in the intersection of faith communities and science.
 More technically, I develop open source scientific software using Julia and Python to analyze medical datasets to produce performant analysis pipelines and visualization schemes.
 I use my [blog](/posts/) to share on my thoughts on anything ranging from programming and knowledge management to academia and best practices.
 
